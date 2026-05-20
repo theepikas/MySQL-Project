@@ -21,6 +21,7 @@ Courses – Stores course information (course name, category, price)
 Purchases – Tracks transactions (learner ID, course ID, quantity, purchase date)
 
 🛠️ Key SQL Concepts Used
+
 INNER JOIN, LEFT JOIN, RIGHT JOIN
 Aggregation functions (SUM, COUNT)
 GROUP BY and ORDER BY
@@ -63,8 +64,8 @@ JOIN purchases p ON c.course_id = p.course_id
 GROUP BY c.course_name
 ORDER BY total_quantity DESC;
 
-ER Diagram:
-<img width="581" height="366" alt="ER_Diagram" src="https://github.com/user-attachments/assets/f16ce8f8-8bf3-4f9d-b0b0-ffe878b97ac7" />
+ER Diagram
+<img width="581" height="366" alt="ER_Diagram" src="https://github.com/user-attachments/assets/0cde299c-9edf-4ff4-a3af-0fe6ea687e76" />
 
 
 📦 Project Outcome
@@ -78,5 +79,5 @@ Implement advanced analytics (RFM analysis, cohort analysis)
 
 📎 Author
 
-[Theepika S]
+Theepika S
 Data Analyst | SQL | Data Analytics
