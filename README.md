@@ -1,5 +1,6 @@
 # MySQL-Project
 📊 E-Learning Platform Purchase Analysis (MySQL Project)
+
 📌 Project Overview
 
 This project focuses on analyzing learner purchase data for an e-learning platform using MySQL. By leveraging SQL queries, joins, and aggregation techniques, the project uncovers valuable insights into sales trends, learner behavior, and course performance.
@@ -10,6 +11,7 @@ Identify top-performing courses and categories
 Evaluate revenue distribution
 Detect high-value customers
 Highlight low-performing courses
+
 🗂️ Database Structure
 
 The analysis is based on three main tables:
@@ -17,27 +19,33 @@ The analysis is based on three main tables:
 Learners – Contains learner details (ID, name, country, etc.)
 Courses – Stores course information (course name, category, price)
 Purchases – Tracks transactions (learner ID, course ID, quantity, purchase date)
+
 🛠️ Key SQL Concepts Used
 INNER JOIN, LEFT JOIN, RIGHT JOIN
 Aggregation functions (SUM, COUNT)
 GROUP BY and ORDER BY
 Subqueries
 Filtering using WHERE and HAVING
+
 🔍 Key Insights
 📈 Sales Analysis
 Identified top-selling courses based on total quantity purchased
 Analyzed category-wise revenue to find high-performing segments
+
 👥 Learner Behavior
 Evaluated learner spending patterns
 Identified high-value customers
 Detected learners purchasing across multiple categories
+
 ⚠️ Performance Gaps
 Found courses with no purchases indicating low demand
+
 💡 Business Recommendations
 🚀 Promote top-performing courses and categories through campaigns
 💸 Improve low-performing course sales using discounts and offers
 🎯 Target high-spending learners with personalized recommendations
 🔄 Encourage cross-category learning for better engagement
+
 📊 Sample Queries
 -- Total spending by each learner
 SELECT l.name, l.country,
@@ -67,6 +75,7 @@ This project demonstrates how SQL can transform raw data into actionable busines
 Add visualization using Power BI / Tableau
 Build a dashboard for real-time insights
 Implement advanced analytics (RFM analysis, cohort analysis)
+
 📎 Author
 
 [Theepika S]
